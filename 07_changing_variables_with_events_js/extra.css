@@ -1,0 +1,10 @@
+.btn-changes {
+    --btn-color: #000;
+    --btn-letter: #fff;
+    background-color: var(--btn-color);
+}
+
+.btn-changes > button {
+    background-color: var(--btn-color);
+    color: var(--btn-letter);
+}

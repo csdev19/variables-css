@@ -1,0 +1,36 @@
+:root {
+    --pink: #e91e63;
+    --gray: #424242;
+    --dark: #222424;
+}
+
+html, body {
+    background: var(--dark);
+    color: var(--pink);
+}
+ 
+h1, p {
+    color: var(--pink);
+}
+
+
+#navbar a {
+    color: var(--pink);
+}
+
+
+.item {
+    background: var(--gray);
+}
+
+button {
+    background: var(--pink);
+    color: var(--gray);
+}
+
+
+.featured {
+    --pink: #F7F00C;
+    --gray: #F7340C;
+}
+

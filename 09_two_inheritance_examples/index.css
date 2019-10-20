@@ -1,0 +1,84 @@
+
+/** Varaibles **/
+:root {
+    --pink: #e91e63;
+    --gray: #424242;
+    --dark: #222424;
+    --main-color: var(--pink);
+}
+
+.grid {
+    --grid-columns: 200px 200px;
+}
+
+/** Estilos **/
+html, body {
+    background: var(--gray);
+    color: var(--pink);
+}
+
+h1, p {
+    color: var(--pink);
+}
+
+#navbar a {
+    color: var(--main-color);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: var(--grid-columns);
+    grid-auto-rows: 140px;
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.item {
+    --pink: orange;
+    background: var(--dark);
+}
+
+button {
+    background: var(--pink);
+    color: var(--dark);
+}
+
+
+@media all and (max-width: 1400px) {
+    .grid {
+       --grid-columns: 200px 200px 200px 200px;   
+    }
+    :root {
+        --pink: #F7F70C;
+    }
+}
+
+
+@media all and (max-width: 900px) {
+    .grid {
+       --grid-columns: 200px 200px 200px;   
+    }
+    :root {
+        --pink: #0CF7B1;
+    }
+}
+
+
+@media all and (max-width: 600px) {
+    .grid {
+       --grid-columns: 200px 200px;   
+    }
+    :root {
+        --pink: #5B0CF7;
+    }
+}
+
+
+@media all and (max-width: 450px) {
+    .grid {
+       --grid-columns: 250px;   
+    }
+    :root {
+        --pink: #F70C4F;
+    }
+}

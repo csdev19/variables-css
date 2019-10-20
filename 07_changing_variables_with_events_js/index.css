@@ -1,0 +1,36 @@
+:root {
+    --letter-color: #e91e63;
+    --gray: #424242;
+    --background-color: #222424;
+}
+
+html, body {
+    background: var(--background-color);
+    color: var(--letter-color);
+}
+ 
+h1, p {
+    color: var(--letter-color);
+}
+
+
+#navbar a {
+    color: var(--letter-color);
+}
+
+
+.item {
+    background: var(--gray);
+}
+
+button {
+    background: var(--letter-color);
+    color: var(--gray);
+}
+
+
+.featured {
+    --letter-color: #F7F00C;
+    --gray: #F7340C;
+}
+
